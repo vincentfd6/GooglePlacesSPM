@@ -18,10 +18,11 @@ let package = Package(
             dependencies: [
                 .target(name: "GooglePlaces"),
             ],
-            path: "GooglePlacesWrapper",
+            path: "GooglePlaces",
             resources: [
                  .copy("Resources/GooglePlaces.bundle")
             ],
+            publicHeadersPath: "Sources",
             linkerSettings: [
                 .linkedLibrary("c++"),
                 .linkedLibrary("z"),
