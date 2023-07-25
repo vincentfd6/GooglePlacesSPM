@@ -19,6 +19,7 @@ let package = Package(
                 .target(name: "GooglePlaces"),
             ],
             path: "GooglePlaces",
+            sources: ["dummy.m"],
             resources: [
                  .copy("Resources/GooglePlaces.bundle")
             ],
