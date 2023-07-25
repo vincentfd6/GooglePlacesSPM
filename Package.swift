@@ -23,15 +23,7 @@ let package = Package(
             resources: [
                  .copy("Resources/GooglePlaces.bundle")
             ],
-            publicHeadersPath: "Sources",
-            linkerSettings: [
-                .linkedLibrary("c++"),
-                .linkedLibrary("z"),
-                .linkedFramework("CoreGraphics"),
-                .linkedFramework("CoreLocation"),
-                .linkedFramework("QuartzCore"),
-                .linkedFramework("UIKit"),
-           ]
+            publicHeadersPath: "Sources"
         )
     ]
 )
