@@ -11,7 +11,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GooglePlaces",
-            path: "GooglePlaces.xcframework.zip"
+            path: "GooglePlaces.xcframework"
         ),
         .target(
             name: "GooglePlacesWrapper",
